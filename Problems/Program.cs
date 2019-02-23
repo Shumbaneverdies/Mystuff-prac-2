@@ -28,6 +28,30 @@ namespace Problems
                 return  output;
                 
             }
+            Prefix("hello");
+        }
+
+        public string Prefix(string v)
+        {
+            
+            
+                string output; 
+                int length = v.Length;
+                int numofwords = (v.Split(' ')).Length;
+                
+                
+                if(v==null)
+                {
+                    return output = "0,0:";
+                }
+                else
+                {
+                    output = $"{length},{numofwords}:{v}";
+                }
+               
+                return  output;
+                
+           
         }
     }
 }
