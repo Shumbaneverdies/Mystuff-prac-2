@@ -10,48 +10,42 @@ namespace Problems
 
             string Prefix (string input)
             {
-                
+                   if(input=="")
+                {
+                    return "0,0:";
+                }
                 string output; 
                 int length = input.Length;
                 int numofwords = (input.Split(' ')).Length;
                 
+                output = $"{length},{numofwords}:{input}";
                 
-                if(input==null)
-                {
-                    return output = "0,0:";
-                }
-                else
-                {
-                    output = $"{length},{numofwords}:{input}";
-                }
-               
+            
                 return  output;
                 
             }
             Prefix("hello");
         }
-
-        public string Prefix(string v)
+      
+       public string Prefix(string v)
         {
             
-            
+               if(v=="")
+                {
+                    return "0,0:";
+                }
+                
                 string output; 
                 int length = v.Length;
-                int numofwords = (v.Split(' ')).Length;
+                int numofwords = (v.Split()).Length;
                 
-                
-                if(v==null)
-                {
-                    return output = "0,0:";
-                }
-                else
-                {
-                    output = $"{length},{numofwords}:{v}";
-                }
-               
+                output = $"{length},{numofwords}:{v}";
+             
                 return  output;
                 
+            
            
         }
+     
     }
 }

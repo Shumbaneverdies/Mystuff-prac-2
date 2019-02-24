@@ -5771,11 +5771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "j:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems.Tests\\Problems.Tests.csproj",
+      "projectUniqueName": "J:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems.Tests\\Problems.Tests.csproj",
       "projectName": "Problems.Tests",
-      "projectPath": "j:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems.Tests\\Problems.Tests.csproj",
+      "projectPath": "J:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems.Tests\\Problems.Tests.csproj",
       "packagesPath": "C:\\Users\\g17p0542\\.nuget\\packages\\",
-      "outputPath": "j:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems.Tests\\obj\\",
+      "outputPath": "J:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5794,8 +5794,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "j:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems\\Problems.csproj": {
-              "projectPath": "j:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems\\Problems.csproj"
+            "J:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems\\Problems.csproj": {
+              "projectPath": "J:\\Desktop\\3rd year\\prac 2\\MyStuff\\Problems\\Problems.csproj"
             }
           }
         }

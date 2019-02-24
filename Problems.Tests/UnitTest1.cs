@@ -4,7 +4,7 @@ using Problems;
  namespace tESTS
 {
     
-    public class Testing
+    public class UnitTest1
     {
         [SetUp]
         public void Setup()
@@ -12,7 +12,7 @@ using Problems;
         }
 
         [Test]
-        public void Tester()
+        public void Test1()
         {
             //arrange
         Program alex = new Program();
@@ -23,7 +23,7 @@ using Problems;
         }
 
          [Test]
-        public void Tester1()
+        public void Test2()
         {
             //arrange
         Program dominique = new Program();
@@ -39,12 +39,12 @@ using Problems;
             //arrange
         Program homie = new Program();
 
-        string input2 = homie.Prefix("what  ... did you say??");
+        string input2 = homie.Prefix("what ... did you say??");
         //assert
-        Assert.AreEqual("27,5:",input2);
+        Assert.AreEqual("22,5:",input2);
         }
 
-        
+
         
     }
 }
